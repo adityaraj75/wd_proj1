@@ -1,0 +1,45 @@
+table{
+  border-collapse: separate;
+}
+
+#gametable{
+  margin: auto;
+  /* background-color: gray; */
+}
+
+.gametable{
+  /* background-color: gray; */
+  width: 500px;
+  height: 400px;
+  text-align: center;
+}
+
+.first_circle{
+  visibility: hidden;
+}
+
+.circle{
+  border: black 6px solid;
+  border-collapse: separate;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+}
+
+
+.winner{
+  margin: auto;
+}
+
+#Restart{
+    margin: auto;
+}
+
+.decision{
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+  margin-left: 12%;
+  text-align: center;
+}

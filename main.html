@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Only Connect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="margin-top: 20px;">
+        <h1 class="display-4">Only Connect 4!</h1>
+        <p class="lead">This is a two player game.<br>Both players take turns dropping coloured balls (blue or red) into columns.
+                        The dropped ball places itself in the last empty slot of that column.For example, the first dropped ball will be placed in the last row<br>
+                        The first player to get 4 balls of the same color horizontally, vertically or diagonally
+                        wins the game.<br>Blue begins the game.
+        </p>
+        <button type="button" name="button" class="btn btn-primary" id="Begin">Begin Game!</button>
+      </div>
+      <div class="container gametable">
+        <div class="container decision">
+          <p class="lead winner">Test</p>
+          <button type="button" name="button" class="btn btn-success" id="Restart">New Game!</button>
+        </div>
+        <table >
+          <tbody id="gametable">
+
+          </tbody>
+        </table>
+      </div>
+  </div>
+  </body>
+  <script type="text/javascript" src="handler.js">
+
+  </script>
+</html>
